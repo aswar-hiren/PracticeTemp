@@ -21,6 +21,7 @@ namespace PracticeTemp.Controllers
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
+
             //Harsh
             var harsh = "harsh";
 
@@ -35,12 +36,8 @@ namespace PracticeTemp.Controllers
         [HttpGet(Name = "GetWeatherForecas")]
         public IEnumerable<WeatherForecast> Got()
         {
-
-
-            var hiren = "hit";
-
-
             var harsh = "harsh";
+
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
