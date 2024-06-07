@@ -23,8 +23,8 @@ namespace PracticeTemp.Controllers
         {
 
             //Harsh
-            var harsh = "harsh";
-            var ishan = "harshtag";
+            var harsh = "harshrathod";
+          
 
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
