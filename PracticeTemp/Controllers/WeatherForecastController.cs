@@ -21,6 +21,7 @@ namespace PracticeTemp.Controllers
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
+            //Harsh
             var harsh = "harsh";
 
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
