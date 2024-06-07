@@ -36,11 +36,6 @@ namespace PracticeTemp.Controllers
         [HttpGet(Name = "GetWeatherForecas")]
         public IEnumerable<WeatherForecast> Got()
         {
-
-
-            var hiren = "hiren";
-
-
             var harsh = "harsh";
 
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
