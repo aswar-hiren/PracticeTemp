@@ -37,7 +37,7 @@ namespace PracticeTemp.Controllers
         {
 
 
-            var hiren = "hiren";
+            var hiren = "hit";
 
 
             var harsh = "harsh";
