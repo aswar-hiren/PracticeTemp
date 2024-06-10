@@ -4,12 +4,12 @@ namespace PracticeTemp.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
-    {
-        private static readonly string[] Summaries = new[]
+        public class WeatherForecastController : ControllerBase
         {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
+            private static readonly string[] Summaries = new[]
+            {
+            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+        };
 
         private readonly ILogger<WeatherForecastController> _logger;
 
@@ -18,12 +18,19 @@ namespace PracticeTemp.Controllers
             _logger = logger;
         }
         //Girish
+<<<<<<< HEAD
 
+=======
+       
+>>>>>>> refs/remotes/origin/master
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
              
+<<<<<<< HEAD
             var Girish = "girish";
+=======
+>>>>>>> refs/remotes/origin/master
 
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
@@ -37,6 +44,7 @@ namespace PracticeTemp.Controllers
         public IEnumerable<WeatherForecast> Got()
         {
             var harsh = "harsh";
+            var hiren = "hiren";
 
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
