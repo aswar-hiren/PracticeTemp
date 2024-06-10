@@ -18,7 +18,6 @@ namespace PracticeTemp.Controllers
             _logger = logger;
         }
         //Girish
-        var Girish = "girish";
 
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
