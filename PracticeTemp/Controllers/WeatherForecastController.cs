@@ -17,18 +17,12 @@ namespace PracticeTemp.Controllers
         {
             _logger = logger;
         }
-
+        //Girish
+       
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
-        var Girish = "girish";
-
-            var hiren = "asd";
-
-            //Harsh
-            var harsh = "harshrathod";
-          
-
+             
 
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
