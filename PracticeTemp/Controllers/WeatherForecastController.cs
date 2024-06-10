@@ -47,6 +47,7 @@ namespace PracticeTemp.Controllers
             var hiren = "hiren";
             var suthar = "girish";
             var hit = "patel";
+            var h = "ts";
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
