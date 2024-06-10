@@ -24,9 +24,12 @@ namespace PracticeTemp.Controllers
         public IEnumerable<WeatherForecast> Get()
         {
 
+            var hiren = "asd";
+
             //Harsh
             var harsh = "harsh";
             var ishan = "dada";
+
 
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
