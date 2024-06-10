@@ -37,6 +37,7 @@ namespace PracticeTemp.Controllers
         {
             var harsh = "harsh";
             var hiren = "hiren";
+            var suthar = "girish";
 
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
