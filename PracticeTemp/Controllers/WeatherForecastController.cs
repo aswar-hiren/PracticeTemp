@@ -22,7 +22,7 @@ namespace PracticeTemp.Controllers
         public IEnumerable<WeatherForecast> Get()
         {
 
-            var hiren = "hiren";
+            var hiren = "asd";
 
             var harsh = "harsh";
 
