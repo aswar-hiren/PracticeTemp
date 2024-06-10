@@ -43,11 +43,7 @@ namespace PracticeTemp.Controllers
         [HttpGet(Name = "GetWeatherForecas")]
         public IEnumerable<WeatherForecast> Got()
         {
-            var harsh = "harsh";
-            var hiren = "hiren";
-            var suthar = "girish";
-            var hit = "patel";
-            var h = "ts";
+          
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
